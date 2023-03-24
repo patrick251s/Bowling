@@ -1,0 +1,1787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="81" passed="81">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="234" started-at="2022-11-21T13:02:05Z" finished-at="2022-11-21T13:02:05Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="234" started-at="2022-11-21T13:02:05Z" finished-at="2022-11-21T13:02:05Z">
+      <class name="com.mycompany.bowling.PlayerNGTest">
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[,]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="16" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[;]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aaa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetCheckedThrowValue" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sqrt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5.43]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueFirstThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-0.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven(java.lang.String, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueSecondThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="16" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="incorrectDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven(java.lang.String, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForGetValueThirdThrowInRound" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="initialize" is-config="true" duration-ms="0" started-at="2022-11-21T14:02:05Z" finished-at="2022-11-21T14:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+        <test-method status="PASS" signature="makeThrow_returnsCorrectValues_correctParametersGiven(int, int, int, int)[pri:0, instance:com.mycompany.bowling.PlayerNGTest@3d24753a]" name="makeThrow_returnsCorrectValues_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="correctDataForMakeThrow" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeThrow_returnsCorrectValues_correctParametersGiven -->
+      </class> <!-- com.mycompany.bowling.PlayerNGTest -->
+      <class name="com.mycompany.bowling.CountingOperationsNGTest">
+        <test-method status="PASS" signature="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven" duration-ms="31" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForOrdinaryPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@57baeedf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOrdinaryPoints_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForOrdinaryPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@5442a311]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOrdinaryPoints_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countRoundPoints_returnsCorrectValues_correctParameterGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countRoundPoints_returnsCorrectValues_correctParameterGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForTotalPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@548e7350]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countRoundPoints_returnsCorrectValues_correctParameterGiven -->
+        <test-method status="PASS" signature="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForOrdinaryPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@53b32d7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOrdinaryPoints_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countOrdinaryPoints_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForOrdinaryPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@343f4d3d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countOrdinaryPoints_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countRoundPoints_returnsCorrectValues_correctParameterGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countRoundPoints_returnsCorrectValues_correctParameterGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForTotalPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@204f30ec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countRoundPoints_returnsCorrectValues_correctParameterGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@146ba0ac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@754ba872]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countRoundPoints_returnsCorrectValues_correctParameterGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countRoundPoints_returnsCorrectValues_correctParameterGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForTotalPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@4667ae56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countRoundPoints_returnsCorrectValues_correctParameterGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@e25b2fe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countRoundPoints_returnsCorrectValues_correctParameterGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countRoundPoints_returnsCorrectValues_correctParameterGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForTotalPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@1a968a59]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countRoundPoints_returnsCorrectValues_correctParameterGiven -->
+        <test-method status="PASS" signature="countRoundPoints_returnsCorrectValues_correctParameterGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countRoundPoints_returnsCorrectValues_correctParameterGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForTotalPoints" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@77cd7a0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countRoundPoints_returnsCorrectValues_correctParameterGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@464bee09]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@3abbfa04]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@4dfa3a9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="16" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@31ef45e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@239963d8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@f6c48ac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@13deb50e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@57fffcd7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countSpare_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countSpare_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForSpare" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@6eebc39e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countSpare_returnsCorrectValue_correctParametersGiven -->
+        <test-method status="PASS" signature="countStrike_returnsCorrectValue_correctParametersGiven(com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests)[pri:0, instance:com.mycompany.bowling.CountingOperationsNGTest@60f82f98]" name="countStrike_returnsCorrectValue_correctParametersGiven" duration-ms="0" started-at="2022-11-21T14:02:05Z" data-provider="throwsDataForStrike" finished-at="2022-11-21T14:02:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@598067a5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countStrike_returnsCorrectValue_correctParametersGiven -->
+      </class> <!-- com.mycompany.bowling.CountingOperationsNGTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

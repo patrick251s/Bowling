@@ -1,0 +1,484 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>81/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Nov 21 14:02:05 CET 2022</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (234 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countOrdinaryPoints_returnsCorrectValue_correctParametersGiven()'><b>countOrdinaryPoints_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@57baeedf</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countOrdinaryPoints_returnsCorrectValue_correctParametersGiven()'><b>countOrdinaryPoints_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@343f4d3d</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countOrdinaryPoints_returnsCorrectValue_correctParametersGiven()'><b>countOrdinaryPoints_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@53b32d7</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countOrdinaryPoints_returnsCorrectValue_correctParametersGiven()'><b>countOrdinaryPoints_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@5442a311</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countRoundPoints_returnsCorrectValues_correctParameterGiven()'><b>countRoundPoints_returnsCorrectValues_correctParameterGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@548e7350</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countRoundPoints_returnsCorrectValues_correctParameterGiven()'><b>countRoundPoints_returnsCorrectValues_correctParameterGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@1a968a59</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countRoundPoints_returnsCorrectValues_correctParameterGiven()'><b>countRoundPoints_returnsCorrectValues_correctParameterGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@4667ae56</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countRoundPoints_returnsCorrectValues_correctParameterGiven()'><b>countRoundPoints_returnsCorrectValues_correctParameterGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@77cd7a0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countRoundPoints_returnsCorrectValues_correctParameterGiven()'><b>countRoundPoints_returnsCorrectValues_correctParameterGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@204f30ec</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@e25b2fe</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@754ba872</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@146ba0ac</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@4dfa3a9d</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@6eebc39e</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countSpare_returnsCorrectValue_correctParametersGiven()'><b>countSpare_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@464bee09</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@f6c48ac</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@13deb50e</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@239963d8</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@3abbfa04</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@57fffcd7</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@31ef45e3</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.CountingOperationsNGTest.countStrike_returnsCorrectValue_correctParametersGiven()'><b>countStrike_returnsCorrectValue_correctParametersGiven</b><br>Test class: com.mycompany.bowling.CountingOperationsNGTest<br>Parameters: com.mycompany.bowling.CountingOperationsNGTest$DataForCountingTests@598067a5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.CountingOperationsNGTest@60f82f98</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: aaa, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: , 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: ., 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: ,, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 12e, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven()'><b>getCheckedThrowValue_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: ;, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: -1, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 11, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 5.43, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: /, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: , 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: .0, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueFirstThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: sqrt, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 0, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 5, 0, 5, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 4, 9, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 1, 4, 9, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 8, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 2, 8, 3, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 3, 8, 7, 3</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 9, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 9, 4, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 8, 9, 2, 8</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_correctParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 10, 9, 10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: -1, 0, 5, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 11, 0, 5, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 4, 0, 7, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 11, 9, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: -0.5, 9, 6, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven()'><b>getValueSecondThrowInRound_returnsCorrectValues_incorrectParametrsGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 7, 9, 6, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 5, 10, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 10, 10, 10</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 0, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 10, 0, 10</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 4, 6, 4</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: -1, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 11, 10, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: -5, 5, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven()'><b>getValueThirdThrowInRound_returnsCorrectValues_incorrectParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 7, 6, 0</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 10, 0, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 8, 1, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 0, 4, 3, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 4, 10, 0, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 4, 0, 10, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 4, 4, 6, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 8, 10, 0, 1</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 8, 0, 10, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 8, 4, 6, 2</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 9, 0, 0, 4</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 9, 5, 4, 4</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 9, 10, 5, 3</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+<tr>
+<td title='com.mycompany.bowling.PlayerNGTest.makeThrow_returnsCorrectValues_correctParametersGiven()'><b>makeThrow_returnsCorrectValues_correctParametersGiven</b><br>Test class: com.mycompany.bowling.PlayerNGTest<br>Parameters: 9, 4, 6, 5</td>
+<td></td>
+<td>0</td>
+<td>com.mycompany.bowling.PlayerNGTest@3d24753a</td></tr>
+</table><p>
+</body>
+</html>
